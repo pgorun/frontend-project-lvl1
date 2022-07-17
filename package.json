@@ -12,12 +12,23 @@
   },
   "type": "module",
   "bin": {
-	"brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "author": "pgorun",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pgorun/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/pgorun/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/pgorun/frontend-project-lvl1#readme",
+  "dependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint-plugin-jest": "^26.6.0",
+    "jest": "^28.1.3"
+  }
 }
