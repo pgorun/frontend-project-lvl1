@@ -9,3 +9,6 @@ Calc Game
 
 GCD
 [![asciicast](https://asciinema.org/a/zKxEDovsWa5gq1zPJ8QIkXRVn.svg)](https://asciinema.org/a/zKxEDovsWa5gq1zPJ8QIkXRVn)
+
+Progression
+[![asciicast](https://asciinema.org/a/fryaCZTknvLm88qasu2cbfJgH.svg)](https://asciinema.org/a/fryaCZTknvLm88qasu2cbfJgH)
