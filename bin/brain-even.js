@@ -11,5 +11,5 @@ console.log('Answer "yes" if the number is even, otherwise answer "no".');
 const sumCorrectAnswer = even(userName);
 
 if (sumCorrectAnswer === gamesForWin) {
-    console.log(`Congratulations, ${userName}!`);
+  console.log(`Congratulations, ${userName}!`);
 }

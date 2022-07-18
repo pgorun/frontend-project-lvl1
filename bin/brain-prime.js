@@ -10,5 +10,5 @@ console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 const sumCorrectAnswer = prime(userName);
 
 if (sumCorrectAnswer === gamesForWin) {
-    console.log(`Congratulations, ${userName}!`);
+  console.log(`Congratulations, ${userName}!`);
 }

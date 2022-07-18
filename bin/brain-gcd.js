@@ -10,5 +10,5 @@ console.log('Find the greatest common divisor of given numbers.');
 const sumCorrectAnswer = gcd(userName);
 
 if (sumCorrectAnswer === gamesForWin) {
-    console.log(`Congratulations, ${userName}!`);
+  console.log(`Congratulations, ${userName}!`);
 }

@@ -10,5 +10,5 @@ console.log('What is the result of the expression?');
 const sumCorrectAnswer = calc(userName);
 
 if (sumCorrectAnswer === gamesForWin) {
-    console.log(`Congratulations, ${userName}!`);
+  console.log(`Congratulations, ${userName}!`);
 }
