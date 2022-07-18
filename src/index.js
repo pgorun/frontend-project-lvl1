@@ -17,28 +17,29 @@ const getRandomExpression = () => {
     const val2 = getRandomValue();
     let result = val1;
     switch (operator) {
-        case '+':
-            result += val2;
-            break;
-        case '-':
-            result -= val2;
-            break;
-        default:
-            result *= val2;
-            break;
+    case '+':
+        result += val2;
+        break;
+    case '-':
+        result -= val2;
+        break;
+    default:
+        result *= val2;
+        break;
     }
     return [`${val1} ${operator} ${val2}`, String(result)];
 };
 
 const isCorrectAnswer = (askValue, answer, gameName) => {
-    if (gameName === 'calc') {
-        return askValue === answer;
-    } else if (gameName === 'even') {
+    if (gameName === 'even') {
         return (askValue % 2 === 0 && answer === 'yes')
         || (askValue % 2 !== 0 && answer === 'no');
     }
-}
+    return askValue === answer;
+};
 
 const getAnswer = () => readlineSync.question('Your answer: ');
 
-export { welcomeAndAskName, getRandomExpression, isCorrectAnswer, getAnswer, getRandomValue };
+export {
+    welcomeAndAskName, getRandomExpression, isCorrectAnswer, getAnswer, getRandomValue,
+};

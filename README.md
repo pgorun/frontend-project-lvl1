@@ -6,3 +6,6 @@ Even Game
 
 Calc Game
 [![asciicast](https://asciinema.org/a/rqU5mqClA8pk4N5Q7HnYzY2NX.svg)](https://asciinema.org/a/rqU5mqClA8pk4N5Q7HnYzY2NX)
+
+GCD
+[![asciicast](https://asciinema.org/a/zKxEDovsWa5gq1zPJ8QIkXRVn.svg)](https://asciinema.org/a/zKxEDovsWa5gq1zPJ8QIkXRVn)

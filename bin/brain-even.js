@@ -8,7 +8,7 @@ const userName = welcomeAndAskName();
 
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
-let sumCorrectAnswer = even(userName);
+const sumCorrectAnswer = even(userName);
 
 if (sumCorrectAnswer === gamesForWin) {
     console.log(`Congratulations, ${userName}!`);

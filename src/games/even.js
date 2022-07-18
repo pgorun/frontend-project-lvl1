@@ -1,4 +1,4 @@
-import { getRandomValue, isCorrectAnswer, getAnswer} from '../index.js';
+import { getRandomValue, isCorrectAnswer, getAnswer } from '../index.js';
 
 const gamesForWin = 3;
 
@@ -8,7 +8,7 @@ const even = (userName) => {
         const askValue = getRandomValue();
         console.log(`Question: ${askValue}`);
         const answer = getAnswer();
-        if (isCorrectAnswer(askValue, answer , 'even')) {
+        if (isCorrectAnswer(askValue, answer, 'even')) {
             console.log('Correct!');
             sumCorrectAnswer += 1;
         } else {

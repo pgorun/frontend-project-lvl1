@@ -1,4 +1,3 @@
-
 import { getRandomExpression, isCorrectAnswer, getAnswer } from '../index.js';
 
 const gamesForWin = 3;
@@ -6,7 +5,7 @@ const gamesForWin = 3;
 const calc = (userName) => {
     let sumCorrectAnswer = 0;
     while (sumCorrectAnswer < gamesForWin) {
-        const [exp, result] = getRandomExpression();  
+        const [exp, result] = getRandomExpression();
         console.log(`Question: ${exp}`);
         const answer = getAnswer();
         if (isCorrectAnswer(result, answer, 'calc')) {
