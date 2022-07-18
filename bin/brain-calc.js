@@ -1,14 +1,13 @@
 #!/usr/bin/env node
 import { welcomeAndAskName } from '../src/index.js';
-import even from '../src/games/even.js';
+import calc from '../src/games/calc.js';
 
 const gamesForWin = 3;
 
 const userName = welcomeAndAskName();
+console.log('What is the result of the expression?');
 
-console.log('Answer "yes" if the number is even, otherwise answer "no".');
-
-let sumCorrectAnswer = even(userName);
+let sumCorrectAnswer = calc(userName);
 
 if (sumCorrectAnswer === gamesForWin) {
     console.log(`Congratulations, ${userName}!`);
